@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 200vh;
+}
 
 .headSection {
   display: flex;
@@ -13,7 +16,7 @@
   justify-content: space-between;
 }
 .logo {
-  min-width: 20%;
+  min-width: 15%;
   min-height: 100%;
   background: yellow;
 }
@@ -23,7 +26,24 @@
   background: orange;
 }
 .contactBtn {
-  min-width: 20%;
+  min-width: 15%;
   min-height: 100%;
   background: orangered;
+}
+.hero {
+  width: 100%;
+  min-height: 80vh;
+  background: pink;
+  display: flex;
+  flex-direction: row;
+}
+.heroText {
+  width: 50%;
+  min-height: 80vh;
+  background: green;
+}
+.heroImage {
+  width: 50%;
+  min-height: 80vh;
+  background: blue;
 }
