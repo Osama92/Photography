@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-  min-height: 200vh;
+  min-height: 300vh;
 }
 
 .headSection {
@@ -46,4 +49,21 @@ body {
   width: 50%;
   min-height: 80vh;
   background: blue;
+}
+.about {
+  width: 100%;
+  min-height: 80vh;
+  background: pink;
+  display: flex;
+  flex-direction: row;
+}
+.aboutImage {
+  width: 50%;
+  min-height: 80vh;
+  background: silver;
+}
+.aboutText {
+  width: 50%;
+  min-height: 80vh;
+  background: purple;
 }
