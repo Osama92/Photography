@@ -10,4 +10,20 @@
   min-height: 10vh;
   width: 100%;
   background: silver;
+  justify-content: space-between;
+}
+.logo {
+  min-width: 20%;
+  min-height: 100%;
+  background: yellow;
+}
+.menu {
+  min-width: 50%;
+  min-height: 100%;
+  background: orange;
+}
+.contactBtn {
+  min-width: 20%;
+  min-height: 100%;
+  background: orangered;
 }
