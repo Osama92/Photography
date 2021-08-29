@@ -110,6 +110,15 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.heroHead h1 {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.heroHead p {
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 70%;
+}
 .heroMiddle {
   width: 100%;
   height: 20%;
@@ -118,7 +127,7 @@ body {
   align-items: center;
 }
 .GStarted {
-  width: 30%;
+  width: 40%;
   height: 50%;
   background: #000;
   border-radius: 5px;
@@ -131,10 +140,11 @@ body {
   color: var(--fontColorWhite);
 }
 .DVideos {
-  width: 30%;
+  width: 40%;
   height: 50%;
   border-color: #000;
-  border-width: 3px !important;
+  border: solid;
+  border-width: 2px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -144,12 +154,37 @@ body {
 .heroFoot {
   width: 100%;
   height: 20%;
-  background: orange;
+  display: flex;
+  align-items: center;
+}
+.camImg {
+  width: 70%;
+  height: 80%;
+  background: silver;
+  margin-left: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ImgHolder {
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  background: black;
+}
+.camImg p {
+  width: 60%;
+  margin-left: 20px;
 }
 .heroImage {
   width: 50%;
   min-height: 80vh;
-  background: blue;
+  background: #fff;
+}
+.camera1 {
+  width: 60%;
+  margin-left: 80px;
 }
 .about {
   width: 100%;
