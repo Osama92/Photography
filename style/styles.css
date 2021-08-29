@@ -11,6 +11,8 @@
   --mediumWeight: 400;
   --boldWeight: 700;
   --extraBold: 900;
+  --fontColorWhite: #fff;
+  --fontColorBlack: #000;
 }
 p {
   font-family: 'Karla';
