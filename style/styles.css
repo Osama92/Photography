@@ -16,6 +16,11 @@
 }
 p {
   font-family: 'Karla';
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font
 }
 
 html {
@@ -58,8 +63,12 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+.menu p {
+  margin-right: 70px;
+  font-size: var(--smallFont);
 }
 .contactBtn {
   min-width: 15%;
@@ -69,10 +78,17 @@ body {
   justify-content: center;
 }
 .contactBg {
-  width: 60%;
+  width: 70%;
   height: 60%;
   background: #000;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactBg p {
+  color: var(--fontColorWhite);
+  font-size: var(--smallFont);
 }
 .hero {
   width: 100%;
@@ -85,6 +101,27 @@ body {
   width: 50%;
   min-height: 80vh;
   background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heroHead {
+  width: 100%;
+  height: 50%;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heroMiddle {
+  width: 100%;
+  height: 20%;
+  background: silver;
+}
+.heroFoot {
+  width: 100%;
+  height: 20%;
+  background: orange;
 }
 .heroImage {
   width: 50%;
