@@ -22,6 +22,10 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 70px;
 }
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -171,11 +175,10 @@ body {
   width: 30%;
   height: 100%;
   border-radius: 5px;
-  background: black;
 }
 .camImg p {
   width: 60%;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .heroImage {
   width: 50%;
@@ -186,20 +189,49 @@ body {
   width: 60%;
   margin-left: 80px;
 }
+.ImgHolder img {
+  width: 80%;
+  height: 100%;
+  clip: inherit;
+  border-radius: 5px;
+}
 .about {
   width: 100%;
   min-height: 80vh;
-  background: pink;
   display: flex;
   flex-direction: row;
 }
 .aboutImage {
   width: 50%;
   min-height: 80vh;
-  background: silver;
+  
 }
 .aboutText {
   width: 50%;
   min-height: 80vh;
-  background: purple;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.aboutText h2 {
+  height: 30%;
+  margin-top: 50px;
+}
+.aboutText p {
+  height: 30%;
+  width: 70%;
+}
+.readMore {
+  width: 40%;
+  height: 60px;
+  background: #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.readMore p {
+  color: var(--fontColorWhite);
+  text-align: center;
 }
