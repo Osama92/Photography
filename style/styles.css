@@ -235,3 +235,31 @@ body {
   color: var(--fontColorWhite);
   text-align: center;
 }
+.services {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.service1 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+.service2 {
+  width: 100%;
+  height: 60%;
+  background: silver;
+  display: flex;
+}
+.text1 {
+  width: 40%;
+  height: 100%;
+  margin-left: 40px;
+}
+.text2 {
+  width: 50%;
+  height: 100%;
+}
