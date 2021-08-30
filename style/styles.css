@@ -327,3 +327,6 @@ img {
   grid-area: port4;
   background-size: cover;
 }
+.portfolioContact {
+  height: 500px;
+}
