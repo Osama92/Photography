@@ -308,25 +308,79 @@ img {
   margin-top: 40px;
 }
 .port1 {
-  background: url("/images/p1.jpg");
   grid-area: port1;
-  background-size: cover;
 }
 .port2 {
-  background: url("/images/port4.jpg") center;
   grid-area: port2;
-  background-size: cover;
 }
 .port3 {
-  background: url("/images/Port1.jpg");
   grid-area: port3;
-  background-size: cover;
 }
 .port4 {
-  background: url("/images/port3.jpg") center;
   grid-area: port4;
-  background-size: cover;
 }
 .portfolioContact {
-  height: 500px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#portfolio {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portContact {
+  width: 20%;
+  height: 60px;
+  background: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.portContact p {
+  color: var(--fontColorWhite);
+}
+.portBtn {
+  width: 20%;
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 60px;
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.right {
+  width: 30%;
+  height: 80%;
+  background: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 30%;
+  height: 80%;
+  background: #fff;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right p {
+  color: var(--fontColorWhite);
+  font-size: 30px;
+}
+.left p {
+  color: var(--fontColorBlack);
+  font-size: 30px;
 }
