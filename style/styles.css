@@ -35,6 +35,7 @@ body {
 }
 header {
   position: fixed;
+  z-index: 100;
 }
 #logo {
   width: 100%;
@@ -46,7 +47,7 @@ header {
   flex-direction: row;
   min-height: 10vh;
   width: 100%;
-  background: grey;
+  background: #fff;
   justify-content: space-around;
 }
 .logo {
@@ -54,6 +55,7 @@ header {
   min-height: 100%;
   display: flex;
   flex-direction: row;
+  background: #fff;
 }
 .logoholder {
   width: 30%;
