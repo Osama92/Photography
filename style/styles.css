@@ -114,7 +114,6 @@ header {
   min-height: 80vh;
   display: flex;
   flex-direction: row;
-  margin-top: 5rem;
 }
 .heroText {
   width: 50%;
@@ -122,6 +121,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 5rem;
 }
 .heroHead {
   width: 100%;
@@ -200,6 +200,7 @@ header {
   width: 50%;
   min-height: 80vh;
   background: #fff;
+  margin-top: 5rem;
 }
 .camera1 {
   width: 60%;
@@ -216,11 +217,11 @@ header {
   min-height: 80vh;
   display: flex;
   flex-direction: row;
-  margin-top: 10rem;
 }
 .aboutImage {
   width: 50%;
   min-height: 80vh;
+  margin-top: 10rem;
 }
 .aboutImage img {
   width: 80%;
@@ -231,6 +232,7 @@ header {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  margin-top: 10rem;
 }
 .aboutText h2 {
   height: 30%;
@@ -304,6 +306,8 @@ img {
   margin-top: 20px;
 }
 .portfolio {
+  min-height: 100vh;
+  width: 100%;
   margin-top: 10rem;
 }
 .portfolio1 {
@@ -326,7 +330,7 @@ img {
     "port1 port3 port4 port4";
   grid-gap: 0.5rem;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 5rem;
 }
 .port1 {
   grid-area: port1;
