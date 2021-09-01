@@ -455,6 +455,29 @@ span {
 .inputSection {
   width: 60%;
   height: 80px;
-  background: black;
+  /* background: black; */
   margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.submitBtn {
+  width: 20%;
+  height: 70%;
+  background: #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.submitBtn p {
+  color: #fff;
+  font-size: 20px;
+}
+input {
+  width: 70%;
+  height: 70%;
+  font-size: 20px;
+  font-family: "Karla";
 }
