@@ -1,6 +1,6 @@
 # Photography
 
-This project was inspired by @arshakirpk on instagram.
+This project was inspired by [@arshakirpk](https://www.instagram.com/arshakirpk/?hl=en) on instagram.
 
 ![arshakirpk](https://user-images.githubusercontent.com/18448626/131720229-74d07e39-b5fa-482c-9c3f-ee1f4650eb96.PNG)
 
