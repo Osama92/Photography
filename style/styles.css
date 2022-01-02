@@ -159,6 +159,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 40px;
+  margin-top: 20px;
 }
 .GStarted p {
   color: var(--fontColorWhite);
@@ -174,6 +175,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 40px;
+  margin-top: 20px;
 }
 .heroFoot {
   width: 100%;
